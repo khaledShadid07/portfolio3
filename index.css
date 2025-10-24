@@ -16,7 +16,7 @@ body{}
 .a-div a:active {color: var(--pinkcolor);}
 
 
-.header{opacity: 1;background-image:url("code-1839406_1280.jpg");;width:100vw;height: 100vh;background-size: cover;position: relative;}
+.header{background-image:url("code-1839406_1280.jpg");;width:100vw;height: 100vh;background-size: cover;position: relative;}
 .header-content p {color: white;font-weight: 700;font-size: 40px;font-family: roboto;}
 .header-content h1 {color: var(--bluecolor);font-weight: 800;;font-family: roboto;margin-top: 35px;margin-bottom: 35px;font-size: 60px;}
 .header-content button {background-color:#1b7097 ;border: none;border-radius: 15px;color: white;width: 250px;height: 55px;
@@ -32,7 +32,7 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 .a-div a {font-size:1.5em;display: inline-block;text-decoration: none;font-weight: 700;color: var(--blackcolor);}
 .header-content{position: absolute;top:200px;left: 20px;;}
 
-.header{opacity: 0.85;background-image:url("code-1839406_1280.jpg");;width:100vw;height: 100vh;background-size: cover;position: relative;}
+.header{background-color: var(--blackcolor);width:100vw;height: 100vh;background-size: cover;position: relative;}
 .header-content p {color: white;font-weight: 700;font-size: 40px;font-family: roboto;}
 .header-content h1 {color: var(--bluecolor);font-weight: 800;;font-family: roboto;margin-top: 35px;margin-bottom: 35px;font-size: 60px;}
   
