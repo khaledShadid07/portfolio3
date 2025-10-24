@@ -41,6 +41,6 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 }
 
 @media screen and (height<500px) {
-.header{background-image:url("black-solid-color-background.jpg");height: 140vh;}  
+.header{background-image:url("black-solid-color-background.jpg");height: 140vh;width: 110vw;}  
 .header-content{position: absolute;top:160px;left: 20px;}
 }
