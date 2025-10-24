@@ -33,7 +33,8 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 .header-content{position: absolute;top:200px;left: 20px;;}
 
 .header{opacity: 0.8;background-image:url("code-1839406_1280.jpg");width:100vw;height: 100vh;background-size: cover;position: relative;}
-.header-content p {color: white;font-weight: 700;font-size: 40px;font-family: roboto;}
+.header-content p {color: var(--pinkcolor);font-weight: 700;font-size: 40px;font-family: roboto;}
 .header-content h1 {color: var(--bluecolor);font-weight: 800;;font-family: roboto;margin-top: 35px;margin-bottom: 35px;font-size: 60px;}
+.header-content button {color: var(--pinkcolor)}
   
 }
