@@ -49,6 +49,7 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 
 /* servise section */
 #services{background-color: white;padding-bottom: 50px;padding-top: 10px;}
+#contact{background-color: white;padding-bottom: 50px;padding-top: 10px;}
 .services-p{color: var(--bluecolor);font-weight: 700;font-size: 45px;text-align: center;margin-top: 80px;font-family: popins;
 margin-bottom: 10px; }
 .services-container{display: flex;justify-content:space-evenly;align-content:space-between;
@@ -71,5 +72,5 @@ flex-wrap: wrap;;width: 100vw;}
 
 /* footer */
 .footer{background-color: var(--blackcolor);display: flex;flex-wrap: wrap;align-items: center;justify-content: space-between;padding:50px ;}
-.footer p {color: white;font-size: 20px;font-weight: 700;}
+.footer p {color: white;font-size: 20px;font-weight: 700;align-content: center;}
 .footer-logo{margin-left: 10px;cursor: pointer;}
