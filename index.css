@@ -5,7 +5,7 @@
   --bluecolor:#35a6d9;
 }
 *{margin: 0px;padding: 0px;font-family:roboto;}
-body{margin: 0px;padding: 0px;font-family:roboto;}
+body{margin: 0px;padding: 0px;font-family:roboto;display: flex;flex-direction: column;}
 
 .nav-container{display: flex;align-items: center;font-size: 10px;padding: 20px;background-color: white;box-shadow: 8px 8px 20px white
 ;max-width: 100vw;flex-wrap: wrap;position: fixed;left: 0px;right: 0px;z-index: 1;}
@@ -48,23 +48,28 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 }
 
 /* servise section */
-
+#services{background-color: white;padding-bottom: 50px;padding-top: 10px;}
 .services-p{color: var(--bluecolor);font-weight: 700;font-size: 45px;text-align: center;margin-top: 80px;font-family: popins;
 margin-bottom: 10px; }
 .services-container{display: flex;justify-content:space-evenly;align-content:space-between;
-flex-wrap: wrap;width: 100vw;}
+flex-wrap: wrap;width: 100vw;padding-bottom: 20px;}
 .card{width:350px;height: 350px;box-shadow: 4px 4px 20px rgb(153, 152, 152);border-radius: 10px;
 display: flex;flex-direction: column;align-items: center;align-content: center;padding: 5px;overflow: scroll;scrollbar-width: none;
-margin: 10px;transition: width 0.5s,height 0.5s;}
-.card:hover{width:380px;height:380px ;}
+margin: 10px;transition: width 0.5s,height 0.5s;cursor: pointer;}
+.card:hover{width:360px;height:360px ;}
 .card-p1{color: var(--bluecolor);font-weight: 700;font-size: 25px;margin-bottom: 20px;border-bottom: solid var(--bluecolor) 1px;text-align: center;}
 .card-img{width: 100px;flex-grow: 1;}
 .card-p2{color: var(--blackcolor);font-weight: 700;font-size: 18px;text-align: center;flex-grow: 1;}
 /* projects */
-#projects{background-color: var(--blackcolor);}
+#projects{background-color: var(--blackcolor);padding-bottom: 50px;padding-top: 10px;}
 .projects-p{color: white;font-weight: 700;font-size: 45px;text-align: center;margin-top: 80px;font-family: popins;
 margin-bottom: 30px; }
 .card-img-projects{width: 320px;flex-grow: 1;margin-bottom: 5px;}
 .card-p1-projects{color: white;font-weight: 700;font-size: 25px;margin-bottom: 20px;}
 .projects-container{display: flex;justify-content:space-evenly;align-content:space-between;
 flex-wrap: wrap;;width: 100vw;}
+
+/* footer */
+.footer{background-color: var(--blackcolor);display: flex;flex-wrap: wrap;align-items: center;justify-content: space-between;padding:50px ;}
+.footer p {color: white;font-size: 20px;font-weight: 700;}
+.footer-logo{margin-left: 10px;cursor: pointer;}
