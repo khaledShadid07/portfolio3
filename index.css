@@ -22,7 +22,7 @@ body{}
 .header div button {background-color:#1b7097 ;border: none;border-radius: 15px;color: white;width: 250px;height: 55px;
 margin-top: 30PX;font-family: roboto;font-size: 20px;font-weight: 700;display: block;box-shadow: 2px 2px 10px var(--bluecolor);
 transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
-.header div button:hover{background-color:var(--bluecolor) ;width: 300px;height:70px ;}
+.header div button:hover{background-color:var(--bluecolor) ;width: 270px;height:65px;}
 
 @media screen and(max-width:450) {
   
