@@ -39,3 +39,7 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 .header-content button {color: white}
   
 }
+
+@media screen and (height<500px) {
+.header{height: 150vh;}  
+}
