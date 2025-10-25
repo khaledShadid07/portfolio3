@@ -74,8 +74,7 @@ flex-wrap: wrap;;width: 100vw;}
 .footer{box-shadow: 8px 8px 50px var(--blackcolor);background-color: var(--blackcolor);display: flex;
   flex-wrap: wrap;align-items: center;justify-content:center;
   padding: 10px;
-border-top-right-radius: 5px;
-border-top-left-radius: 5px;
+
 }
 .footer p {color: white;font-size: 20px;font-weight: 700;align-content: center;}
 .footer-logo{margin-left: 10px;cursor: pointer;}
