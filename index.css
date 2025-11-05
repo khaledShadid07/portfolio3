@@ -52,7 +52,7 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 #contact{background-color: white;padding-bottom: 50px;padding-top: 10px;}
 .services-p{color: var(--bluecolor);font-weight: 700;font-size: 45px;text-align: center;margin-top: 80px;font-family: poppins;
 margin-bottom: 10px; }
-.services-container{display: flex;justify-content:space-evenly;align-content:space-between;
+.services-container{display: flex;justify-content:center;align-content:space-between;
 flex-wrap: wrap;width: 100vw;padding-bottom: 20px;}
 .card{width:350px;height: 350px;box-shadow: 4px 4px 20px rgb(153, 152, 152);border-radius: 10px;
 display: flex;flex-direction: column;align-items: center;align-content: center;padding: 5px;overflow: scroll;scrollbar-width: none;
@@ -67,7 +67,7 @@ margin: 10px;transition: width 0.5s,height 0.5s;cursor: pointer;}
 margin-bottom: 30px; }
 .card-img-projects{width: 320px;flex-grow: 1;margin-bottom: 5px;}
 .card-p1-projects{color: white;font-weight: 700;font-size: 25px;margin-bottom: 20px;}
-.projects-container{display: flex;justify-content:space-evenly;align-content:space-between;
+.projects-container{display: flex;justify-content:center;align-content:space-between;
 flex-wrap: wrap;;width: 100vw;}
 
 /* footer */
