@@ -4,6 +4,16 @@
   --pinkcolor:#e83c2a;
   --bluecolor:#35a6d9;
 }
+@keyframes button_color_change {
+from{background-color: #35a6d9;}
+to{background-color:#192347}
+}
+.My-Work-btn{
+animation-name: button_color_change;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+
+}
 *{margin: 0px;padding: 0px;font-family:roboto;scroll-behavior: smooth;}
 body{margin: 0px;padding: 0px;font-family:roboto;display: flex;flex-direction: column;overflow-x: hidden;}
 a{text-decoration: none;}
@@ -63,6 +73,7 @@ margin: 10px;transition: width 0.5s,height 0.5s;cursor: pointer;}
 /* .card:hover{width:352px;height:352px ;} */
 .card-p1{color: var(--bluecolor);font-weight: 700;font-size: 25px;margin-bottom: 20px;border-bottom: solid var(--bluecolor) 1px;text-align: center;}
 .card-img{width: 100px;flex-grow: 1;}
+.card-img1{width: 500px;flex-grow: 1;color: #35a6d9;}
 .card-p2{color: var(--blackcolor);font-weight: 700;font-size: 18px;text-align: center;flex-grow: 1;}
 /* projects */
 #projects{background-color: var(--blackcolor);padding-bottom: 50px;padding-top: 10px;}
@@ -111,3 +122,4 @@ cursor: pointer;font-size: 14px;line-height:16.8px;
 }
 .footer_div_2_p2:hover{text-decoration: underline;}
 .footer-margin-r{margin-right: 0px;}
+
