@@ -6,7 +6,7 @@
 }
 @keyframes button_color_change {
 from{background-color: #35a6d9;}
-to{background-color:#192347}
+to{background-color: #134f6b;}
 }
 .My-Work-btn{
 animation-name: button_color_change;
@@ -73,6 +73,7 @@ margin: 10px;transition: width 0.5s,height 0.5s;cursor: pointer;}
 /* .card:hover{width:352px;height:352px ;} */
 .card-p1{color: var(--bluecolor);font-weight: 700;font-size: 25px;margin-bottom: 20px;border-bottom: solid var(--bluecolor) 1px;text-align: center;}
 .card-img{width: 100px;flex-grow: 1;}
+.card-img2{width: 150px;flex-grow: 1;}
 .card-img1{width: 500px;flex-grow: 1;color: #35a6d9;}
 .card-p2{color: var(--blackcolor);font-weight: 700;font-size: 18px;text-align: center;flex-grow: 1;}
 /* projects */
