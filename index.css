@@ -5,8 +5,9 @@
   --bluecolor:#35a6d9;
 }
 @keyframes button_color_change {
-from{background-color: #35a6d9;}
-to{background-color: #134f6b;}
+100%{background-color:#35a6d9}
+
+0%{background-color:#FC466B}
 }
 .My-Work-btn{
 animation-name: button_color_change;
@@ -35,7 +36,7 @@ margin-top: 30PX;font-family: roboto;font-size: 20px;font-weight: 700;display: b
 transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 .header-content button:hover{background-color:var(--bluecolor) ;width: 270px;height:65px;}
 
-@media screen and (width<500px) {
+@media screen and (width<600px) {
 .nav-container{display: flex;align-items: center;font-size: 10px;padding: 20px;background-color: white;box-shadow: 8px 8px 20px white
 ;max-width: 100vw;position: fixed;left: 0px;right: 0px;z-index: 1;} 
 .nav-container-a1 {color: var(--blackcolor);text-decoration: none;
@@ -44,14 +45,14 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 .a-div a {font-size:1em;display: inline-block;text-decoration: none;font-weight: 700;color: var(--blackcolor);}
 .header-content{position: absolute;top:160px;left: 20px;}
 
-.header{background-image:url("black-solid-color-background.jpg");width:100vw;height: 110vh;background-size: cover;position: relative;}
+.header{background-image:url("black-solid-color-background.jpg");width:100vw;height: 120vh;background-size: cover;position: relative;}
 .header-content p {color: white;font-weight: 700;font-size: 40px;font-family: roboto;}
 .header-content h1 {color: var(--bluecolor);font-weight: 800;;font-family: roboto;margin-top: 35px;margin-bottom: 35px;font-size: 60px;}
 .header-content button {color: white;margin-top: 40PX}
   
 }
 
-@media screen and (height<600px) {
+@media screen and (height<500px) {
 .header{background-image:url("black-solid-color-background.jpg");height: 150vh;}  
 .header-content{position: absolute;top:160px;left: 20px;}
 .header-content button {color: white;margin-top: 40PX}
@@ -74,6 +75,7 @@ margin: 10px;transition: width 0.5s,height 0.5s;cursor: pointer;}
 .card-p1{color: var(--bluecolor);font-weight: 700;font-size: 25px;margin-bottom: 20px;border-bottom: solid var(--bluecolor) 1px;text-align: center;}
 .card-img{width: 100px;flex-grow: 1;}
 .card-img2{width: 150px;flex-grow: 1;}
+.card-img3{width: 150px;flex-grow: 1;padding: 10px;}
 .card-img1{width: 500px;flex-grow: 1;color: #35a6d9;}
 .card-p2{color: var(--blackcolor);font-weight: 700;font-size: 18px;text-align: center;flex-grow: 1;}
 /* projects */
