@@ -83,9 +83,9 @@ margin: 10px;transition: width 0.5s,height 0.5s;cursor: pointer;}
 .projects-p{color: white;font-weight: 700;font-size: 45px;text-align: center;margin-top: 80px;font-family: poppins;
 margin-bottom: 30px; }
 .card-img-projects{width: 320px;flex-grow: 1;margin-bottom: 5px;}
-.card-p1-projects{color: white;font-weight: 700;font-size: 25px;margin-bottom: 20px;}
-.projects-container{display: flex;justify-content:center;align-content:space-between;
-flex-wrap: wrap;;width: 100vw;}
+  .card-p1-projects{color: white;font-weight: 700;font-size: 25px;margin-bottom: 20px;}
+  .projects-container{display: flex;justify-content:center;align-content:space-between;
+  flex-wrap: wrap;;width: 100vw;}
 
 /* footer */
 .footer{box-shadow: 8px 8px 50px var(--blackcolor);background-color: var(--blackcolor);display: flex;
