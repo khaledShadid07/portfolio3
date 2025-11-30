@@ -7,7 +7,7 @@
 @keyframes button_color_change {
 100%{background-color:#35a6d9}
 
-0%{background-color:#FC466B}
+0%{background-color:#0d506e}
 }
 .My-Work-btn{
 animation-name: button_color_change;
