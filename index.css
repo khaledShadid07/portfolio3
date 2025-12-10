@@ -56,6 +56,7 @@ transition: background-color 1s,width 1s,height 1s ;cursor: pointer;}
 .header{background-image:url("black-solid-color-background.jpg");height: 150vh;}  
 .header-content{position: absolute;top:160px;left: 20px;}
 .header-content button {color: white;margin-top: 40PX}
+.curosal-con{margin-top: 100px;}
 }
 
 /* servise section */
@@ -197,4 +198,4 @@ justify-content: center;
 }
 
 .carousel-page{width: 100vw;}
-
+.curosal-con{display: flex;justify-content: center;align-content:center;align-items: center;margin-top: 50px;}
