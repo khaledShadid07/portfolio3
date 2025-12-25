@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KHALED SHADID</title>
-  <link rel="stylesheet" href="index.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -13,8 +13,14 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 
-  
-
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <!--  -->
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body id="nav">
@@ -38,11 +44,32 @@
     <p>I build complex websites</p>
     <a style="text-decoration: none;" href="#projects"><button class="My-Work-btn">View My Work</button></a>
   </div>
+
+   <!-- carosal start-->
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide carosal-css " data-bs-ride="carousel">
+    <div class="carousel-inner">
+     
+      <div class="carousel-item active" data-bs-interval="2000">
+        <img src="./images/program-3460032_1280.jpg" class="carosal-img" alt="...">
+      </div>
+
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/keyboard-5017973_1280.jpg" class="carosal-img" alt="...">
+      </div>
+
+      
+
+    </div>
+  </div>
+  <!-- carosal  end-->
+
   <main style="flex-grow: 1;">
     <section id="services">
-      <p class="services-p">Services</p>
+      <p class="display-4 text-primary fw-bold text-center">Services</p>
       <div class="services-container">
-        <div class="card">
+        <div class="card-project">
           <svg class="card-img2" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
             <path fill="#35a6d9"
@@ -52,7 +79,7 @@
           <p class="card-p1">Create Websites</p>
           <p class="card-p2">Create Professional Websites,Customized to Your Needs</p>
         </div>
-        <div class="card">
+        <div class="card-project">
           <svg class="card-img2" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
             <path fill="#35a6d9"
@@ -61,7 +88,7 @@
           <p class="card-p1">UX/UI Design</p>
           <p class="card-p2"> transform ideas into engaging user journeys through UX/UI design in Figma</p>
         </div>
-        <div class="card">
+        <div class="card-project">
           <svg class="card-img2" xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
             <path fill="#35a6d9"
@@ -70,13 +97,13 @@
           <p class="card-p1">Data Mining</p>
           <p class="card-p2">analyzing data to uncover trends and correlations to optimize existing operations.</p>
         </div>
-        <div class="card">
-          <img class="card-img3" src="school.png" alt="web">
+        <div class="card-project">
+          <img class="card-img3" src="./icons/school.png" alt="web">
           <p class="card-p1">Machine Learning</p>
           <p class="card-p2">Building intelligent systems that learn from data</p>
         </div>
-        <div class="card">
-          <img class="card-img3" src="connection.png" alt="web">
+        <div class="card-project">
+          <img class="card-img3" src="./icons/connection.png" alt="web">
           <p class="card-p1">Deep Learning</p>
           <p class="card-p2">Engineering advanced intelligence through deep learning</p>
         </div>
@@ -88,86 +115,89 @@
     <section id="projects">
 
 
-      <p class="projects-p">projects</p>
+      <p class="display-3 text-light text-center shadow-sm">projects</p>
 
       <div class="projects-container">
         <a href="https://khaledshadid07.github.io/project_reactjs_orange/">
-          <div class="card">
-            <img style="height: 0px;" class="card-img-projects" src="ecommerce-1706103_1280.png" alt="web">
+          <div class="card-project">
+            <img style="height: 0px;" class="card-img-projects" src="./projects-images/ecommerce-1706103_1280.png" alt="web">
             <p class="card-p1-projects">Java Store</p>
           </div>
         </a>
         <a href="https://amazon-reactjs-lemon.vercel.app/">
-          <div class="card">
-            <img style="height: 0px;" class="card-img-projects" src="amazon.png" alt="web">
+          <div class="card-project">
+            <img style="height: 0px;" class="card-img-projects" src="./projects-images/amazon.png" alt="web">
             <p class="card-p1-projects">Amazon</p>
           </div>
         </a>
         <a href="https://khaledshadid07.github.io/furniture/">
-          <div class="card">
-            <img style="height: 0px;" class="card-img-projects" src="article2.jpg" alt="web">
+          <div class="card-project">
+            <img style="height: 0px;" class="card-img-projects" src="./projects-images/article2.jpg" alt="web">
             <p class="card-p1-projects">Furniture</p>
           </div>
         </a>
         <a href="https://chatbot-lake-rho.vercel.app/">
-          <div class="card">
-            <img style="height: 0px;" class="card-img-projects" src="chatpot.png" alt="web">
+          <div class="card-project">
+            <img style="height: 0px;" class="card-img-projects" src="./projects-images/chatpot.png" alt="web">
             <p class="card-p1-projects">Chatbot</p>
           </div>
         </a>
         <a href="https://project-mern-7.vercel.app/">
-          <div class="card">
-            <img class="card-img-projects" src="kebab-2505236_1280.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/kebab-2505236_1280.jpg" alt="web">
             <p class="card-p1-projects">Food</p>
           </div>
         </a>
-        <a href="https://firebase-project2.vercel.app/">
-          <div class="card">
-            <img class="card-img-projects" src="google-plus-940316_1280.png" alt="web">
-            <p class="card-p1-projects">Google Login</p>
-          </div>
-        </a>
+       
         <a href="https://project-mern4-whether-sjyw.vercel.app/">
-          <div class="card">
-            <img class="card-img-projects" src="sunset-8064078_1280.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/sunset-8064078_1280.jpg" alt="web">
             <p class="card-p1-projects">Check Whether</p>
           </div>
         </a>
 
         <a href="https://project-mern5-books-oaik228je-khaled-shadids-projects.vercel.app/">
-          <div class="card">
-            <img class="card-img-projects" src="old-books-436498_1280.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/old-books-436498_1280.jpg" alt="web">
             <p class="card-p1-projects">Education Books</p>
           </div>
 
         </a>
         <a href="https://khaledshadid07.github.io/login_form/">
-          <div class="card">
-            <img class="card-img-projects" src="loginproject.jpeg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/loginproject.jpeg" alt="web">
             <p class="card-p1-projects">Login Form</p>
 
           </div>
 
         </a>
+        <a href="https://firebase-project2.vercel.app/">
+          <div class="card-project">
+            <img style="height: 0px;" class="card-img-projects" src="./projects-images/google-plus-940316_1280.png" alt="web">
+            <p class="card-p1-projects">Google Login</p>
+
+          </div>
+
+        </a>
         <a href="https://cat-app-eight-fawn.vercel.app/">
-          <div class="card">
-            <img class="card-img-projects" src="cat-1045782_1280.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/cat-1045782_1280.jpg" alt="web">
             <p class="card-p1-projects">Cat Facts</p>
 
           </div>
 
         </a>
         <a href="https://project-mern-todolist.vercel.app/">
-          <div class="card">
-            <img class="card-img-projects" src="todo-lists-5238324_1280.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/todo-lists-5238324_1280.jpg" alt="web">
             <p class="card-p1-projects">Todo List</p>
 
           </div>
 
         </a>
         <a href="https://project-mern3.vercel.app/">
-          <div class="card">
-            <img class="card-img-projects" src="board-1500391_1280.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/board-1500391_1280.jpg" alt="web">
             <p class="card-p1-projects">Excuses</p>
 
           </div>
@@ -175,22 +205,22 @@
         </a>
         <a href="https://khaledshadid07.github.io/project2/">
 
-          <div class="card">
-            <img class="card-img-projects" src="lavaux-6762894_1280.jpg" alt="web">
-            <p class="card-p1-projects">Explore the world</p>
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/lavaux-6762894_1280.jpg" alt="web">
+            <p class="card-p1-projects ">Explore the world</p>
 
           </div>
         </a>
         <a href="https://khaledshadid07.github.io/project5/">
-          <div class="card">
-            <img class="card-img-projects" src="hero.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/hero.jpg" alt="web">
             <p class="card-p1-projects">Responsive Template</p>
 
           </div>
         </a>
         <a href="https://khaledshadid07.github.io/project6/">
-          <div class="card">
-            <img class="card-img-projects" src="cloud-computing-3385323_1280.jpg" alt="web">
+          <div class="card-project">
+            <img class="card-img-projects" src="./projects-images/cloud-computing-3385323_1280.jpg" alt="web">
             <p class="card-p1-projects">Online Services</p>
 
           </div>
@@ -203,7 +233,7 @@
     </section>
 
     <section id="contact">
-      <p class="services-p">Let's work together</p>
+      <p class="display-4 text-primary text-center fw-bold">Let's work together</p>
       <div class="services-container">
         <div class="card1">
           <svg class="card-img" xmlns="http://www.w3.org/2000/svg" height="90" width="90"
@@ -229,6 +259,35 @@
       </div>
 
     </section>
+
+    <main class="contact d-flex align-content-center align-items-center justify-content-center flex-column">
+      <p class="display-4 text-primary mt-4 shadow-sm fw-bold ">Message Me</p>
+      <form  id="contactForm" action="https://formsubmit.co/khaled_shadid@yahoo.com" method="POST"
+        class="form-control p-4 rounded-2 d-flex flex-column justify-content-center align-items-center align-content-center my-4 shadow-lg">
+        <input type="text" name="Name" placeholder="Full Name" class="form-control name-js w-75 shadow-sm" required>
+        <br>
+        <input type="email" name="Email" placeholder="Email" class="form-control email-js w-75 shadow-sm" required>
+        <br>
+         <select class="form-control w-75 shadow-sm" name="continent" id="" required>
+          <option  selected value="Region" >Select Region</option>
+          <option  value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Africa">Africa</option>
+          <option value="Australia">Australia</option>
+          <option value="USA">USA</option>
+         </select> 
+        <br>
+        <textarea class="form-text message-js w-75 shadow-sm p-2" name="Message" placeholder="Message"
+          required></textarea>
+        <br>
+        <button type="submit" class="btn btn-outline-primary px-4 ">Send</button>
+
+
+
+      </form>
+
+
+    </main>
 
   </main>
   <div class="footer-container">
@@ -272,12 +331,18 @@
   <div class='footer_div_2'>
     <div class='footer_div_2_1 footer-margin-r'>
       <p class='footer_div_2_p1'>Get to Know Me</p>
-      <a href="https://www.linkedin.com/in/%D8%AE%D8%A7%D9%84%D8%AF-%D8%B4%D8%AF%D9%8A%D8%AF-1975a73a1/"> <p class='footer_div_2_p2'>Linkedin</p></a>
+      <a href="https://www.linkedin.com/in/%D8%AE%D8%A7%D9%84%D8%AF-%D8%B4%D8%AF%D9%8A%D8%AF-1975a73a1/">
+        <p class='footer_div_2_p2'>Linkedin</p>
+      </a>
 
-      <a href="https://www.upwork.com/freelancers/~01bea35ecdb47dd576"> <p class='footer_div_2_p2'>Upwork</p></a>
-      
-      <a href="" ><p class='footer_div_2_p2'>CV</p></a>
-      
+      <a href="https://www.upwork.com/freelancers/~01bea35ecdb47dd576">
+        <p class='footer_div_2_p2'>Upwork</p>
+      </a>
+
+      <a href="">
+        <p class='footer_div_2_p2'>CV</p>
+      </a>
+
       <a href="./certificates.html">
         <p class='footer_div_2_p2'>certificates</p>
       </a>
@@ -514,6 +579,21 @@
   </div>
 
 
+
+
+
+   <script>
+
+    const fn1=(event)=>{
+      alert('message sent successfuly')
+      document.querySelector('.name-js').value=""
+      document.querySelector('.email-js').value=""
+      document.querySelector('.message-js').value=""
+      
+
+    }
+    document.getElementById('contactForm').addEventListener('submit', fn1);
+  </script>
 </body>
 
 </html>

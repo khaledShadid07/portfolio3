@@ -92,7 +92,7 @@ a {
 
 
 .header {
-  background-image: url("black-solid-color-background.jpg");
+  background-image: url("./images/black-solid-color-background.jpg");
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -170,6 +170,7 @@ a {
 
   .a-div {
     padding: 5px;
+    padding-top: 12px;
     font-size: 12px;
     margin-right: 5px;
   }
@@ -189,7 +190,7 @@ a {
   }
 
   .header {
-    background-image: url("black-solid-color-background.jpg");
+    background-image: url("./images/black-solid-color-background.jpg");
     width: 100vw;
     height: 120vh;
     background-size: cover;
@@ -223,8 +224,8 @@ a {
 
 @media screen and (height<500px) {
   .header {
-    background-image: url("black-solid-color-background.jpg");
-    height: 150vh;
+    background-image: url("./images/black-solid-color-background.jpg");
+    height: 310vh;
   }
 
   .header-content {
@@ -275,7 +276,7 @@ a {
   padding-bottom: 20px;
 }
 
-.card {
+.card-project {
   width: 350px;
   height: 350px;
   box-shadow: 4px 4px 20px rgb(153, 152, 152);
@@ -652,3 +653,9 @@ a {
   align-items: center;
   margin-top: 50px;
 }
+
+
+/* main page carosal */
+.carosal-css{width: 100vw;height: 60vh;}
+.carosal-img{width: 100vw;height: 60vh;}
+/* main page carosal */
