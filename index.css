@@ -195,7 +195,7 @@ a {
   .header {
     background-image: url("./images/black-solid-color-background.jpg");
     width: 100vw;
-    height: 120vh;
+    height: 200vh;
     background-size: cover;
     position: relative;
   }
@@ -225,7 +225,7 @@ a {
 
 }
 
-@media screen and (height<500px)   {
+ @media screen and (height<400px)   {
   .header {
     background-image: url("./images/black-solid-color-background.jpg");
     height: 180vh;
@@ -245,7 +245,7 @@ a {
   .curosal-con {
     margin-top: 100px;
   }
-}
+} 
 
 
   /* @media screen and (height<430px) and(width<430px) {
