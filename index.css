@@ -158,7 +158,10 @@ a {
     left: 0px;
     right: 0px;
     z-index: 1;
+    
   }
+
+  .btn-search{padding-right: 20px;}
 
   .nav-container-a1 {
     color: var(--blackcolor);
