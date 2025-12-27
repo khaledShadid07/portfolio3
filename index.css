@@ -100,10 +100,10 @@ a {
   align-content: center;
   background-color: black;
   width: 100vw;
+  height: 120vh;
    
   padding: 5px;
-  padding-bottom: 100px;  
-  padding-top: 100px;
+ 
   
 
   /* background-size: cover; */
