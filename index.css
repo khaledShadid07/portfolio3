@@ -100,6 +100,7 @@ a {
   align-content: center;
   background-color: black;
   width: 100vw;
+
   padding: 5px;
   padding-bottom: 100px;  
   padding-top: 100px;
@@ -197,6 +198,7 @@ a {
 
 .header {
     margin-top: 5px;
+    height: 100vh;
   } 
 
 
