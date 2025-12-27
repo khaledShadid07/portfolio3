@@ -195,7 +195,7 @@ a {
   .header {
     background-image: url("./images/black-solid-color-background.jpg");
     width: 100vw;
-    height: 200vh;
+    height: 120vh;
     background-size: cover;
     position: relative;
   }
@@ -233,7 +233,7 @@ a {
 
   .header-content {
     position: absolute;
-    top: 60px;
+    top: 100px;
     left: 20px;
   }
 
