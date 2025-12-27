@@ -233,7 +233,7 @@ a {
 
  @media screen and (height<400px)   {
   
-
+.header{height: 200vh;}
   .header-content-button {
     color: white;
     margin-top: 40PX
