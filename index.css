@@ -225,7 +225,7 @@ a {
 @media screen and (height<500px) {
   .header {
     background-image: url("./images/black-solid-color-background.jpg");
-    height: 200vh;
+    height: 320vh;
   }
 
   .header-content {
