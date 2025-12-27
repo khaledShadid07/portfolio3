@@ -24,16 +24,55 @@
 </head>
 
 <body id="nav">
+<nav class="navbar navbar-light bg-light fixed-top shadow-lg  ">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold lead"  href="#nav">KHALED <span style="color: var(--pinkcolor);">SHADID</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <nav class="nav-container">
-    <a class="nav-container-a1" href="#nav">KHALED <span style="color: var(--pinkcolor);">SHADID</span></a>
-    <div class="a-div">
-      <a href="#services">Services</a>
-      <a style="margin-left:20px;" href="#projects">Projects</a>
-      <a style="margin-left:20px;" href="#contact">Contact</a>
+    <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Welcome </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"href="#contact">Contact</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul> -->
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+          <button class="btn btn-primary" type="submit">Search</button>
+        </form>
+      </div>
     </div>
+  </div>
+</nav>
 
-  </nav>
+
+
+
   <header class="header">
 
   </header>
@@ -45,9 +84,9 @@
     <a style="text-decoration: none;" href="#projects"><button class="My-Work-btn">View My Work</button></a>
   </div>
 
-   <!-- carosal start-->
+  <!-- carosal start-->
 
-<!-- 
+  <!-- 
   <div id="carouselExampleSlidesOnly" class="carousel slide carosal-css bg-dark" data-bs-ride="carousel">
     <div class="carousel-inner">
      
@@ -120,7 +159,8 @@
       <div class="projects-container">
         <a href="https://khaledshadid07.github.io/project_reactjs_orange/">
           <div class="card-project">
-            <img style="height: 0px;" class="card-img-projects" src="./projects-images/ecommerce-1706103_1280.png" alt="web">
+            <img style="height: 0px;" class="card-img-projects" src="./projects-images/ecommerce-1706103_1280.png"
+              alt="web">
             <p class="card-p1-projects">Java Store</p>
           </div>
         </a>
@@ -148,7 +188,7 @@
             <p class="card-p1-projects">Food</p>
           </div>
         </a>
-       
+
         <a href="https://project-mern4-whether-sjyw.vercel.app/">
           <div class="card-project">
             <img class="card-img-projects" src="./projects-images/sunset-8064078_1280.jpg" alt="web">
@@ -173,7 +213,8 @@
         </a>
         <a href="https://firebase-project2.vercel.app/">
           <div class="card-project">
-            <img style="height: 0px;" class="card-img-projects" src="./projects-images/google-plus-940316_1280.png" alt="web">
+            <img style="height: 0px;" class="card-img-projects" src="./projects-images/google-plus-940316_1280.png"
+              alt="web">
             <p class="card-p1-projects">Google Login</p>
 
           </div>
@@ -262,20 +303,20 @@
 
     <main class="contact d-flex align-content-center align-items-center justify-content-center flex-column">
       <p class="services-p1">Message Me</p>
-      <form  id="contactForm" action="https://formsubmit.co/khaled_shadid@yahoo.com" method="POST"
+      <form id="contactForm" action="https://formsubmit.co/khaled_shadid@yahoo.com" method="POST"
         class="form-control p-4 rounded-2 d-flex flex-column justify-content-center align-items-center align-content-center my-4 shadow-lg">
         <input type="text" name="Name" placeholder="Full Name" class="form-control name-js w-75 shadow-sm" required>
         <br>
         <input type="email" name="Email" placeholder="Email" class="form-control email-js w-75 shadow-sm" required>
         <br>
-         <select class="form-control w-75 shadow-sm" name="continent" id="" required>
-          <option  selected value="Region" >Select Region</option>
-          <option  value="Asia">Asia</option>
+        <select class="form-control w-75 shadow-sm" name="continent" id="" required>
+          <option selected value="Region">Select Region</option>
+          <option value="Asia">Asia</option>
           <option value="Europe">Europe</option>
           <option value="Africa">Africa</option>
           <option value="Australia">Australia</option>
           <option value="USA">USA</option>
-         </select> 
+        </select>
         <br>
         <textarea class="form-text message-js w-75 shadow-sm p-2" name="Message" placeholder="Message"
           required></textarea>
@@ -582,14 +623,14 @@
 
 
 
-   <script>
+  <script>
 
-    const fn1=(event)=>{
+    const fn1 = (event) => {
       alert('message sent successfuly')
-      document.querySelector('.name-js').value=""
-      document.querySelector('.email-js').value=""
-      document.querySelector('.message-js').value=""
-      
+      document.querySelector('.name-js').value = ""
+      document.querySelector('.email-js').value = ""
+      document.querySelector('.message-js').value = ""
+
 
     }
     document.getElementById('contactForm').addEventListener('submit', fn1);
