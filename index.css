@@ -364,7 +364,7 @@ a {
 
 /* projects */
 #projects {
-  background-color: var(--blackcolor);
+  background-color: rgb(27, 36, 48);
   padding-bottom: 50px;
   padding-top: 10px;
 }
