@@ -21,6 +21,18 @@
     crossorigin="anonymous"></script>
   <!--  -->
   <link rel="stylesheet" href="index.css">
+   <style>
+        html, body {
+            touch-action: pan-x pan-y;
+            height: 100%;
+            overflow: auto;
+        }
+        
+        /* Optional: Reset scale on double-tap for touch devices */
+        * {
+            touch-action: manipulation;
+        }
+    </style>
 </head>
 
 <body id="nav">
@@ -630,6 +642,31 @@
     }
     document.getElementById('contactForm').addEventListener('submit', fn1);
   </script>
+
+
+ <script>
+        // Prevent zoom with pinch gesture
+        document.addEventListener('gesturestart', function(e) {
+            e.preventDefault();
+        });
+        
+        // Prevent zoom with Ctrl/Cmd + scroll
+        document.addEventListener('wheel', function(e) {
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+        
+        // Prevent keyboard zoom shortcuts
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && 
+                (e.key === '+' || e.key === '-' || e.key === '=' || 
+                 e.key === '0' || // Ctrl+0 for reset zoom
+                 e.keyCode === 187 || e.keyCode === 189 || e.keyCode === 48)) {
+                e.preventDefault();
+            }
+        });
+    </script>
 </body>
 
 </html>
